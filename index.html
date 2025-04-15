@@ -4,225 +4,75 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Emran Mahmud | Content Creator</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+  <title>Emran Mahmud</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Poppins', sans-serif;
-    }
     body {
-      background: #f7f9fc;
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: #f5f5f5;
       color: #333;
-      line-height: 1.6;
-      transition: background-color 0.3s, color 0.3s;
-    }
-    body.dark-mode {
-      background: #121212;
-      color: #eaeaea;
     }
     header {
-      background: #1abc9c;
-      color: white;
-      padding: 2rem;
       text-align: center;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-    header h1 {
-      font-size: 2.5rem;
-    }
-    .container {
-      max-width: 1000px;
-      margin: auto;
       padding: 2rem;
+      background: #0b5ed7;
+      color: white;
+    }
+    header img {
+      width: 80px;
+      border-radius: 50%;
     }
     section {
-      margin-bottom: 3rem;
-    }
-    h2 {
-      color: #1abc9c;
-      margin-bottom: 1rem;
-    }
-    .card {
-      background: white;
-      border-radius: 15px;
       padding: 2rem;
-      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-      transition: transform 0.3s ease;
+      max-width: 800px;
+      margin: auto;
     }
-    .card:hover {
-      transform: translateY(-5px);
+    .social-links a {
+      margin: 0 10px;
+      color: #0b5ed7;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .contact {
+      background: #eee;
+      padding: 1rem;
+      margin-top: 2rem;
+      border-radius: 8px;
     }
     iframe {
       width: 100%;
       height: 315px;
       border: none;
-      border-radius: 10px;
-    }
-    .projects-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 1rem;
-    }
-    .project-card {
-      background: #fff;
-      border-radius: 10px;
-      padding: 1rem;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    }
-    .project-card img {
-      width: 100%;
-      border-radius: 8px;
-      margin-bottom: 0.5rem;
-    }
-    .social-links a {
-      margin: 0 10px;
-      color: #1abc9c;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    .social-links a:hover {
-      text-decoration: underline;
-    }
-    footer {
-      text-align: center;
-      padding: 1.5rem;
-      background: #1abc9c;
-      color: white;
-    }
-    .embed-fb {
-      margin: 2rem 0;
-    }
-    .whatsapp-btn {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background-color: #25D366;
-      color: white;
-      border-radius: 50%;
-      padding: 15px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      font-size: 24px;
-      cursor: pointer;
-      transition: background-color 0.3s;
-    }
-    .whatsapp-btn:hover {
-      background-color: #128C7E;
-    }
-    .dark-mode-toggle {
-      position: fixed;
-      top: 20px;
-      right: 20px;
-      background-color: #1abc9c;
-      color: white;
-      border: none;
-      border-radius: 50%;
-      padding: 10px;
-      cursor: pointer;
-      font-size: 20px;
-    }
-    .post {
-      margin-bottom: 1.5rem;
-    }
-    .post a {
-      text-decoration: none;
-      color: #1abc9c;
-    }
-    .post a:hover {
-      text-decoration: underline;
+      margin-top: 2rem;
     }
   </style>
 </head>
 <body>
   <header>
+    <img src="logo.png" alt="Emran Mahmud Logo" />
     <h1>Emran Mahmud</h1>
-    <p>Content Creator | Mobile Animator | YouTuber</p>
   </header>
 
-  <button class="dark-mode-toggle" onclick="toggleDarkMode()">🌙</button>
-  <div class="container">
-    <section class="card">
-      <h2>About Me</h2>
-      <p>
-        Hello! I'm <strong>Emran Mahmud</strong>, a passionate content creator currently based in Kuwait. I create entertaining and meaningful animated short videos using only my mobile phone. My goal is to inspire and entertain people through digital storytelling.
-      </p>
-      <p>
-        With experience in YouTube content creation and social media engagement, I enjoy learning new tools, editing techniques, and visual trends to improve my craft every day. When I'm not making videos, I love exploring creative ideas and connecting with my audience.
-      </p>
-    </section>
+  <section>
+    <h2>About Me</h2>
+    <p>আমি একজন সাধারণ মানুষ, যারা তার দৈনন্দিন জীবনের অভিজ্ঞতা ও শিক্ষা থেকে কিছু শিখে এবং শেয়ার করে মানুষের সাহায্য করতে চায়। আমি বিশ্বাস করি যে, ছোট পদক্ষেপের মাধ্যমে বড় পরিবর্তন আনা সম্ভব। আমার কাজের উদ্দেশ্য হলো, প্রতিটি মুহূর্তকে সঠিকভাবে কাজে লাগানো এবং অন্যদের সাহায্য করা তাদের লক্ষ্য অর্জনে।</p>
 
-    <section class="card">
-      <h2>My Latest YouTube Video</h2>
-      <iframe src="https://www.youtube.com/embed?listType=user_uploads&list=EmranMahmud" allowfullscreen></iframe>
-    </section>
+    <div class="social-links">
+      <h3>Follow Me:</h3>
+      <a href="https://www.facebook.com/share/18XhgNUnB7/">Facebook</a>
+      <a href="https://www.instagram.com/emranmaofficials">Instagram</a>
+      <a href="https://www.tiktok.com/@emranmofficials">TikTok</a>
+      <a href="https://t.me/emranmaofficials">Telegram</a>
+    </div>
 
-    <section class="card">
-      <h2>Project Gallery</h2>
-      <div class="projects-grid">
-        <div class="project-card">
-          <img src="https://via.placeholder.com/300x180.png?text=Project+1" alt="Project 1">
-          <h4>Animated Short - Dream Big</h4>
-        </div>
-        <div class="project-card">
-          <img src="https://via.placeholder.com/300x180.png?text=Project+2" alt="Project 2">
-          <h4>Motivational Clip - Never Give Up</h4>
-        </div>
-        <div class="project-card">
-          <img src="https://via.placeholder.com/300x180.png?text=Project+3" alt="Project 3">
-          <h4>Funny Sketch - Life of a Creator</h4>
-        </div>
-      </div>
-    </section>
+    <iframe src="https://www.youtube.com/embed?listType=user_uploads&list=EmranMOfficial"></iframe>
 
-    <section class="card">
-      <h2>Latest Posts</h2>
-      <div class="post">
-        <h3><a href="#">How to Create Engaging Videos for Social Media</a></h3>
-        <p>Posted on: April 2025</p>
-        <p>This is a quick guide on how to create engaging videos using your phone. Learn some tips and tricks to improve your content.</p>
-      </div>
-      <div class="post">
-        <h3><a href="#">5 Tips for Growing Your YouTube Channel</a></h3>
-        <p>Posted on: March 2025</p>
-        <p>In this post, I share five tips that have helped me grow my YouTube channel and increase my subscriber count. Try them out!</p>
-      </div>
-    </section>
-
-    <section class="card">
-      <h2>Facebook Post</h2>
-      <div class="embed-fb">
-        <div id="fb-root"></div>
-        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v17.0" nonce="abc123"></script>
-        <div class="fb-post" data-href="https://www.facebook.com/share/18XhgNUnB7/" data-width="500"></div>
-      </div>
-    </section>
-
-    <section class="card">
-      <h2>Contact Me</h2>
+    <div class="contact">
+      <h3>Contact</h3>
       <p>Email: <a href="mailto:emranm002@gmail.com">emranm002@gmail.com</a></p>
-      <p>Phone: <a href="tel:+8801709897500">+8801709897500</a></p>
-      <div class="social-links">
-        <a href="https://youtube.com/@EmranMahmud" target="_blank">YouTube</a>
-        <a href="https://facebook.com/share/18XhgNUnB7/" target="_blank">Facebook</a>
-        <a href="https://instagram.com/emranmaofficials" target="_blank">Instagram</a>
-        <a href="https://tiktok.com/@emranmofficials" target="_blank">TikTok</a>
-        <a href="https://t.me/emranmaofficials" target="_blank">Telegram</a>
-      </div>
-    </section>
-  </div>
-
-  <footer>
-    &copy; 2025 Emran Mahmud. All rights reserved.
-  </footer>
-
-  <a href="https://wa.me/+8801709897500" class="whatsapp-btn" target="_blank">💬</a>
-
-  <script>
-    function toggleDarkMode() {
-      document.body.classList.toggle('dark-mode');
-    }
-  </script>
+      <p>Phone: +8801709897500</p>
+    </div>
+  </section>
 </body>
 </html>
