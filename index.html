@@ -3,97 +3,76 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Emran Mahmud | Personal Website</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Emran Mahmud</title>
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Roboto', sans-serif;
-    }
     body {
-      background: linear-gradient(to right, #1f1c2c, #928dab);
-      color: #fff;
-      line-height: 1.6;
-    }
-    header {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom right, #0f0f0f, #3a3a52);
+      color: #ffffff;
+      padding: 20px;
       text-align: center;
-      padding: 4rem 1rem;
-      background-color: rgba(0, 0, 0, 0.5);
     }
-    header img {
-      width: 160px;
-      height: 160px;
-      border-radius: 50%;
-      margin-bottom: 1rem;
-      border: 4px solid #fff;
-    }
-    header h1 {
-      font-size: 2.5rem;
-    }
-    header p {
-      font-size: 1.2rem;
-      margin-top: 0.5rem;
-    }
-    section {
-      padding: 2rem;
+    .container {
       max-width: 800px;
       margin: auto;
     }
-    .social-links a {
-      margin: 0 10px;
-      color: #fff;
-      font-size: 1.4rem;
-      text-decoration: none;
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
     }
-    footer {
-      text-align: center;
-      padding: 2rem;
-      font-size: 0.9rem;
-      background-color: rgba(0, 0, 0, 0.4);
+    p {
+      font-size: 1.2rem;
+    }
+    .fb-post, .yt-video {
+      margin-top: 30px;
+    }
+    iframe {
+      border: none;
+      width: 100%;
+      max-width: 560px;
+      height: 315px;
     }
   </style>
 </head>
 <body>
-  <header>
-    <img src="emran.jpg" alt="Emran Mahmud" />
+  <div class="container">
     <h1>Emran Mahmud</h1>
     <p>Content Creator | YouTuber | Based in Kuwait</p>
-    <div class="social-links">
-      <a href="https://youtube.com/@emranmaofficials?si=SB287JM-RhPyTMEw" target="_blank">YouTube</a>
-      <a href="https://www.facebook.com/share/12F7YiWGHp8/" target="_blank">Facebook</a>
-      <a href="https://www.instagram.com/emranmaofficials?igsh=MWhmNjdvazRhcGFpeQ==" target="_blank">Instagram</a>
+    <div>
+      <a href="https://youtube.com/@emranmaofficials" style="color:#fff; margin:0 10px;">YouTube</a>
+      <a href="https://www.facebook.com/share/12F7YiWGHp8/" style="color:#fff; margin:0 10px;">Facebook</a>
+      <a href="https://www.instagram.com/emranmaofficials" style="color:#fff; margin:0 10px;">Instagram</a>
     </div>
-  </header>
-  
-  <section>
+    
     <h2>About Me</h2>
-    <p>
-      Hi! I'm Emran Mahmud, a passionate content creator living in Kuwait. I create fun, engaging, and animated short videos using mobile apps. My goal is to entertain and inspire audiences all around the world through my creativity.
-    </p>
-  </section>
-
-  <section>
+    <p>Hi! I'm Emran Mahmud, a passionate content creator living in Kuwait. I create fun, engaging, and animated short videos using mobile apps. My goal is to entertain and inspire audiences all around the world through my creativity.</p>
+    
     <h2>What I Do</h2>
-    <ul>
+    <ul style="text-align:left;">
       <li>Create animation shorts for YouTube</li>
       <li>Make trending mobile-based content</li>
       <li>Entertain & inspire through visuals</li>
     </ul>
-  </section>
 
-  <section>
-    <h2>Featured Video</h2>
-    <iframe width="100%" height="315" src="https://www.youtube.com/embed?listType=user_uploads&list=emranmaofficials" frameborder="0" allowfullscreen></iframe>
-  </section>
+    <div class="yt-video">
+      <h2>My YouTube Video</h2>
+      <iframe src="https://www.youtube.com/embed/c0w_c9t6H_E?si=xBm3T-5r0Vr4ItrC" allowfullscreen></iframe>
+    </div>
 
-  <footer>
-    <p>© 2025 Emran Mahmud | All rights reserved</p>
-  </footer>
+    <div class="fb-post">
+      <h2>Latest Facebook Post</h2>
+      <div id="fb-root"></div>
+      <script async defer crossorigin="anonymous" 
+        src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v18.0" nonce="abc123">
+      </script>
+      <div class="fb-post" 
+        data-href="https://www.facebook.com/share/p/16G87jsYRq/" 
+        data-width="500" 
+        data-show-text="true">
+      </div>
+    </div>
+  </div>
 </body>
 </html>
