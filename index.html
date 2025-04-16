@@ -1,86 +1,54 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="bn">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Emran Mahmud</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Roboto', sans-serif;
-      background: #f5f5f5;
-      color: #333;
-    }
-    header {
-      text-align: center;
-      padding: 2rem;
-      background: #0b5ed7;
-      color: white;
-    }
-    header img {
-      width: 80px;
-      border-radius: 50%;
-    }
-    section {
-      padding: 2rem;
-      max-width: 800px;
-      margin: auto;
-    }
-    .social-links {
-      margin-top: 1.5rem;
-    }
-    .social-links a {
-      display: inline-block;
-      margin: 0 10px;
-      color: #0b5ed7;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    .social-links i {
-      margin-right: 5px;
-    }
-    .contact {
-      background: #eee;
-      padding: 1rem;
-      margin-top: 2rem;
-      border-radius: 8px;
-    }
-    iframe {
-      width: 100%;
-      height: 315px;
-      border: none;
-      margin-top: 2rem;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emran Mahmud</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <img src="logo.png" alt="Emran Mahmud Logo" />
-    <h1>Emran Mahmud</h1>
-  </header>
+    <header>
+        <div class="topbar">
+            <img src="profile.jpg" alt="Emran Mahmud" class="profile-pic">
+            <h1>এমরান মাহমুদ</h1>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/share/18XhgNUnB7/" target="_blank">Facebook</a>
+                <a href="https://www.instagram.com/emranmaofficials" target="_blank">Instagram</a>
+                <a href="https://www.tiktok.com/@emranmofficials" target="_blank">TikTok</a>
+                <a href="https://t.me/emranmaofficials" target="_blank">Telegram</a>
+            </div>
+        </div>
+        <img src="banner.jpg" alt="Header Image" class="banner">
+    </header>
 
-  <section>
-    <h2>About Me</h2>
-    <p>আমি একজন সাধারণ মানুষ, যারা তার দৈনন্দিন জীবনের অভিজ্ঞতা ও শিক্ষা থেকে কিছু শিখে এবং শেয়ার করে মানুষের সাহায্য করতে চায়। আমি বিশ্বাস করি যে, ছোট পদক্ষেপের মাধ্যমে বড় পরিবর্তন আনা সম্ভব। আমার কাজের উদ্দেশ্য হলো, প্রতিটি মুহূর্তকে সঠিকভাবে কাজে লাগানো এবং অন্যদের সাহায্য করা তাদের লক্ষ্য অর্জনে।</p>
+    <section class="about">
+        <h2>একজন সাধারণ মানুষ</h2>
+        <p>আমি এমরান মাহমুদ। আমি একজন সাধারণ মানুষ, যার জীবনের লক্ষ্য খুবই সাধারণ—নিজেকে চিনে নেওয়া আর নিজের ভালো লাগা জিনিসগুলো নিয়েই সময় কাটানো। আমি কোনো তারকা না, তবুও আমি চাই আমার চিন্তা, আমার অনুভব—আরও কারও কাজে লাগুক।</p>
+    </section>
 
-    <div class="social-links">
-      <h3>Follow Me:</h3>
-      <a href="https://www.facebook.com/share/18XhgNUnB7/" target="_blank"><i class="fab fa-facebook"></i>Facebook</a>
-      <a href="https://www.instagram.com/emranmaofficials" target="_blank"><i class="fab fa-instagram"></i>Instagram</a>
-      <a href="https://www.tiktok.com/@emranmofficials" target="_blank"><i class="fab fa-tiktok"></i>TikTok</a>
-      <a href="https://t.me/emranmaofficials" target="_blank"><i class="fab fa-telegram"></i>Telegram</a>
-    </div>
+    <section class="videos">
+        <h2>আমার ইউটিউব ভিডিও</h2>
+        <iframe width="360" height="215" src="https://www.youtube.com/embed?listType=user_uploads&list=UCxxxxxxxxxx" frameborder="0" allowfullscreen></iframe>
+    </section>
 
-    <iframe src="https://www.youtube.com/embed?listType=user_uploads&list=EmranMOfficial"></iframe>
+    <section class="gallery">
+        <h2>আমার কিছু ছবি</h2>
+        <div class="images">
+            <img src="gallery1.jpg" alt="Gallery Image 1">
+            <img src="gallery2.jpg" alt="Gallery Image 2">
+        </div>
+    </section>
 
-    <div class="contact">
-      <h3>Contact</h3>
-      <p>Email: <a href="mailto:emranm002@gmail.com">emranm002@gmail.com</a></p>
-      <p>Phone: +8801709897500</p>
-    </div>
-  </section>
+    <section class="contact">
+        <h2>যোগাযোগ করুন</h2>
+        <p>Email: emranm002@gmail.com | Phone: +8801709897500</p>
+        <form>
+            <input type="text" placeholder="আপনার নাম">
+            <input type="email" placeholder="আপনার ইমেইল">
+            <textarea placeholder="মেসেজ লিখুন"></textarea>
+            <button type="submit">পাঠান</button>
+        </form>
+    </section>
 </body>
 </html>
