@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emran Mahmud</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to bottom right, #2c3e50, #3498db);
+            color: white;
+            text-align: center;
+        }
+        header {
+            padding: 50px 20px 20px;
+        }
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid white;
+            object-fit: cover;
+        }
+        h1 {
+            margin: 15px 0 5px;
+            font-size: 2.5rem;
+        }
+        p {
+            margin: 5px 0;
+            font-size: 1.2rem;
+        }
+        .social-icons {
+            margin-top: 15px;
+        }
+        .social-icons a {
+            color: white;
+            margin: 0 10px;
+            font-size: 28px;
+            transition: transform 0.3s, color 0.3s;
+            text-decoration: none;
+        }
+        .social-icons a:hover {
+            color: #f1c40f;
+            transform: scale(1.2);
+        }
+        section {
+            padding: 30px 20px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            font-size: 1.1rem;
+        }
+        footer {
+            padding: 15px;
+            font-size: 0.9rem;
+            background-color: rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="your-profile.jpg" alt="Profile Picture">
+    <h1>Emran Mahmud</h1>
+    <p>Content Creator | YouTuber | Based in Kuwait</p>
+    <div class="social-icons">
+        <a href="https://www.youtube.com/@emranmaofficials" target="_blank"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.facebook.com/share/12F7YiWGHp8/" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com/emranmaofficials" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+</header>
+
+<section>
+    <h2>আমার সম্পর্কে</h2>
+    <p>আমি ইমরান মাহমুদ, কুয়েতে বসবাসরত একজন কনটেন্ট ক্রিয়েটর। মোবাইল দিয়ে অ্যানিমেশন ভিডিও এবং শর্টস তৈরি করে বিশ্বব্যাপী দর্শকদের আনন্দ দিয়ে থাকি।</p>
+
+    <h2>আমি যা করি</h2>
+    <ul>
+        <li>✔ ইউটিউব শর্টস এবং ভিডিও তৈরি</li>
+        <li>✔ মোবাইলের মাধ্যমে অ্যানিমেশন তৈরি</li>
+        <li>✔ সোশ্যাল মিডিয়াতে অ্যাক্টিভ</li>
+    </ul>
+</section>
+
+<footer>
+    &copy; 2025 Emran Mahmud | সর্বস্বত্ব সংরক্ষিত
+</footer>
+
+</body>
+</html>
